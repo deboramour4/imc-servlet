@@ -32,7 +32,7 @@ public class LoginServlet extends HttpServlet {
             session.setAttribute("login", login);
             response.sendRedirect("principalServlet");
         } else {
-            response.sendRedirect("logout.html");
+            response.sendRedirect("logoutServlet");
         }
 
     }

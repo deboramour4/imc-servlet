@@ -16,9 +16,9 @@
             <header>Cálculo de IMC</header>
             <form action="imcServlet" method="post">
                 <label>Altura</label>
-                <p><input type="text" name="altura" placeholder="Altura em M" required></p>
+                <p><input type="number" name="altura" placeholder="Altura em M" step=any required></p>
                 <label>Massa</label>
-                <p><input type="text" name="massa" placeholder="Massa em Kg" required></p>
+                <p><input type="number" name="massa" placeholder="Massa em Kg" step=any required></p>
                 <p><input type="submit" id="entrar" value="Calcular"></p>
             </form>
         </div>

@@ -1,8 +1,0 @@
-response.setContentType("text/html");
-    PrintWriter out = response.getWriter();
-    out.println("Included HTML block:");
-    request.getRequestDispatcher("/pathToFile/block.html").include(request, response); 
-    out.close();
-
-<object data="view/header.html"></object>
-<div>um testeeeeeeeeeee</div>
