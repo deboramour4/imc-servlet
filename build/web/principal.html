@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculando o IMC com Servlet</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            Sistema de Cálculo de Índice de Massa Corporal | Débora Moura | 387312
+            <div><a href="logoutServlet"><input type="submit" value="SAIR X"></a></div>
+        </header>
+        <div>
+            <header>Cálculo de IMC</header>
+            <form action="imcServlet" method="post">
+                <label>Altura</label>
+                <p><input type="text" name="altura" placeholder="Altura em M" required></p>
+                <label>Massa</label>
+                <p><input type="text" name="massa" placeholder="Massa em Kg" required></p>
+                <p><input type="submit" id="entrar" value="Calcular"></p>
+            </form>
+        </div>
+        <footer>Disciplina de Programação para Web 1<br>Prof. Leonardo Moreira<br>Prof. Emanuel Coutinho</footer>
+    </body>
+</html>
